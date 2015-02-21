@@ -13,7 +13,8 @@ Repo created for the project in Coursera class -- Getting and Cleaning Data
 ## Let's switch back to the last level and add a link to (www.github.com)
 
 ## Now for my favorite Quote:
-> Weapons are the tools of destruction, all good men avoid them
+> "Weapons are the tools of destruction, all good men avoid them."
+
 *wow*
 ** that is an _awesome_ quote **
 
