@@ -10,7 +10,7 @@ Repo created for the project in Coursera class -- Getting and Cleaning Data
 4. numbered list
 5. 
 
-## Let's switch back to the last level and add a link to (www.github.com)
+## Let's switch back to the last level and add a link to [the github home page](www.github.com)
 
 ## Now for my favorite Quote:
 > "Weapons are the tools of destruction, all good men avoid them."
