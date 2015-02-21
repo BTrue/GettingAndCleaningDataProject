@@ -16,7 +16,7 @@ Repo created for the project in Coursera class -- Getting and Cleaning Data
 > "Weapons are the tools of destruction, all good men avoid them."
 
 *wow*
-** that is an _awesome_ quote **
+**that is an _awesome_ quote**
 
 Now here is an unorderd list
 * gallon of milk
