@@ -1,7 +1,9 @@
 # GettingAndCleaningDataProject
 Repo created for the project in Coursera class -- Getting and Cleaning Data 
 
-## You should create one R script called **run_analysis.R** that does the following:
+
+
+#### **DIRECTIONS:** You should create one R script called **run_analysis.R** that does the following:
 
 1. Merges the training and the test sets to create one data set.
 
@@ -13,9 +15,7 @@ Repo created for the project in Coursera class -- Getting and Cleaning Data
 
 5. From the data set in step 4, creates a second, independent tidy data set with the             average of each variable for each activity and each subject.
 
-## LIST OF STEPS TAKEN
+#### **PROCEDURE:**
+- Created a function script **run_analysis.R**
+- Imported **UCI HAR Data** from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) using *unz()* and *read.files()* to create usable data frames that can be utilized to create a tidy dataset.
 
-- download the .zip file named it **smartphone_data.zip** stored it in directory named **data**
-- used unzip() function to open directory of files in the **UCI HAR Dataset
-- read in the files in the **test** and **train** folders using read.table()
-- 
