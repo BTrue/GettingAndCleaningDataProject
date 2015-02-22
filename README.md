@@ -1,7 +1,7 @@
 # GettingAndCleaningDataProject
 Repo created for the project in Coursera class -- Getting and Cleaning Data 
 
-
+## Assignment Incomplete -- But this is what I have so far
 
 #### **DIRECTIONS:** You should create one R script called **run_analysis.R** that does the following:
 
