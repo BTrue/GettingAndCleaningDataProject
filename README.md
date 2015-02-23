@@ -17,7 +17,12 @@ Repo created for the project in Coursera class -- Getting and Cleaning Data
 
 #### **PROCEDURE:**
 - Created a function script **run_analysis.R**
-- Imported **UCI HAR Data** from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) using *unz()* and *read.files()* to create usable data frames that can be utilized to create a tidy dataset.
-- Merged data concatinating data, subject, and features data creating one large data table utilizing calls to *rbind()* and *cbind()* to do so.
-- Began the process of trimming the dataset down to the columns related to Mean and Standard deviation. In order to do so, it was necessary to rename columns by R standards. In order to do so I used *make.names()* and *select()* from the **dplyr** package.
+- Installed **dplyr** and **tidyr** for use later.
+- Included *require(dplyr)* and *require(tidyr)*.
+- Imported and read data from **UCI HAR Data** found at (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) using *unz()* and *read.files()* to create usable data frames that can be merged and manipulated to create a one tidy dataset.
+- Merged data frames concatinating data, subject, and features frames, creating one large data frame called **all_data**. The script calls to base function *rbind()* to do so. 
+- Added the **activity** and **subject** columns to the dataset and renamed it **all_data**.
+- Added column names from **features.txt** as the column names using *cbind()*. 
+- And, renamed columns in dataset to R compatible variable names with the *make.names()* function.
+- Began the process of trimming the dataset down to the columns related to Mean and Standard deviation. In order to do so, it was necessary to rename columns by R standards.  and *select()* from the **dplyr** package.
 
